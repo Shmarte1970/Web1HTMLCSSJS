@@ -37,7 +37,7 @@ header{
 }
 
 .head{
-    
+    text-align: center;
     padding:0px;
     height: 100%;
     display: flex;
@@ -165,6 +165,7 @@ header{
 }
 
 .imagen-light{
+    object-fit: cover;
     position: fixed;
     background: rgba(0, 0, 0, .5);
     width: 100%;
@@ -183,6 +184,7 @@ header{
 }
 
 .agregar-imagen{
+    object-fit: cover;
     width: 60%;
     border-radius: 10px;
     transform: scale(0);
@@ -298,5 +300,107 @@ header{
     margin-bottom: 60px;
 }
 
+@media  screen and (max-width:800px){
+    .menu-navegacion{
+        width: 50vw;
+    }
+
+    .titulo{
+        font-size: 40px;
+
+    }
+
+    .contenedor-servicio img{
+        width: 80%;
+        margin-bottom: 40px;
+    }
+
+    .checklist-servicio{
+        width: 80%;
+    }
+
+    .service{
+        margin-bottom: 30px;
+    }
+
+    .agregar-imagen{
+        width: 80%;
+    }
+
+    .img-galeria{
+        width: 45%;
+    }
+
+    .cont-expert{
+        width:80%;
+    }
+
+    .footer-content{
+        justify-content: center;
+    }
+
+    
+    .social-media{
+        display: flex;
+        width: 80%;
+        justify-content: space-between;
+    }
+
+    .social-media i{
+        
+        margin-left: 0;
+    }
+
+    .contact-us{
+        text-align: center;
+        width: 80%;
+        margin-bottom: 40px;
+    }
+
+    .social-media-icon{
+        margin-left: 0;
+    }
+ 
+
+}
+
+@media  screen and (max-width:500px){
+
+    .menu-navegacion{
+        width: 65vw;
+    }
+
+    .agregar-imagen{
+        width: 95%;
+    }
+
+    .hamburguer{
+        top: 20px;
+        right: 20px;
+
+    }
+
+    .titulo{
+        font-size: 30px;
+    }
+
+    .subtitulo{
+        font-size:30px;
+    }
+
+    .img-galeria{
+        width: 95%;
+    }
+
+    .social-media{
+        width: 100%;
+    }
+
+   
+    .contact-us{
+        width: 90%;
+    }
+
+}
 
 
