@@ -66,15 +66,14 @@ header{
 }
 
 .menu-navegacion{
+    border-radius: 5%;
     position: fixed;
     top: 0;
     right: 0;
     width: 30vw;
     height: 100%;
-    font-weight: bold;
-    background-color: rgb(102, 126, 234, .7);
-   
-    /*background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);*/
+    font-weight: bold;    
+    background-image: linear-gradient(135deg, rgba(128, 210, 235, 0.7) 0%, rgb(111, 44, 138) 100%);
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -191,7 +190,7 @@ header{
     width: 60%;
     border-radius: 10px;
     transform: scale(0);
-    transition: transform .3s 2s;
+    transition: transform .1s .05s;
 }
 
 .showImage{
